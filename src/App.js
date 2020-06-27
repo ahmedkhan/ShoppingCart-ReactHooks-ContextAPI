@@ -1,11 +1,16 @@
 import React from 'react';
 import './App.css';
-
+import { ItemList } from './components/ItemList';
+import { Cart } from './components/Cart';
+import { CartProvider } from './Context/CartContext';
 function App() {
   return (
-    <div className="App">
-     Hello World
-    </div>
+    <CartProvider>
+      <div>
+        <Cart />
+        <ItemList />
+      </div>
+    </CartProvider>
   );
 }
 
