@@ -1,18 +1,19 @@
-import React,{useContext} from 'react'
+import React, { useContext } from 'react'
 import { CartContext } from '../Context/CartContext';
 export const Items = (props) => {
-  const [cart, setCart] = useContext(CartContext);
+    const [cart, setCart] = useContext(CartContext);
     
-  const addToCart = () => {
-   const Items = { name: props.name, price: props.price };
-    setCart(currentState => [...currentState, Items]);
-  }
+    const addToCart = () => {
+        console.log(cart)
+        const Items = { name: props.name, price: props.price };
+        setCart(currentState => [...currentState, Items]);
+    }
     return (
         <div>
-        <h2>{props.name}</h2>
-        <h4>{props.price}</h4>
-        <button onClick={addToCart}>Add to cart</button>
-        <hr />
+            <h2>{props.name}</h2>
+            <h4>{props.price}</h4>
+            <button onClick={addToCart}>Add to cart</button>
+            <hr />
         </div>
     )
 }
