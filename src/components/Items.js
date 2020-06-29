@@ -19,10 +19,10 @@ const useStyles = makeStyles({
     },
 
     badge: {
-    right: -15,
-    top: 5,    
-    padding: '0 4px',
-  },
+        right: -15,
+        top: 5,
+        padding: '0 4px',
+    },
 
 });
 
@@ -47,11 +47,8 @@ export const Items = (props) => {
                 <CardContent>
                     <Typography gutterBottom variant="h5" component="h2">
                         {props.name}
-                        <Badge color="secondary" overlap="circle" badgeContent={props.price} className={classes.badge}/>
+                        <Badge color="secondary" overlap="circle" badgeContent={props.price} className={classes.badge} />
                     </Typography>
-                                
-                    
-
                     <Typography variant="body2" color="textSecondary" component="p">
                         {props.description}
                     </Typography>
@@ -72,9 +69,3 @@ export const Items = (props) => {
 
 
 
-//<div>
- //           <h2>{props.name}</h2>
-  //          <h4>{props.price}</h4>            
-   //         <button onClick={addToCart}>Add to cart</button>
-   //         <hr />
-///</div>

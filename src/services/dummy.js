@@ -13,70 +13,70 @@ export const dummyProducts = [
     {
       id: 1,
       name: "Buffalo - Striploin",
-      price: 39.11,
+      price: 39,
       photo: image1,
       description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
     },
     {
       id: 2,
       name: "Bacardi Breezer - Tropical",
-      price: 257.92,
+      price: 25,
       photo: image2,
       description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
     },
     {
       id: 3,
       name: "Wine - Gato Negro Cabernet",
-      price: 51.01,
+      price: 51,
       photo: image3,
       description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
     },
     {
       id: 4,
       name: "Cabbage - Nappa",
-      price: 250.90,
+      price: 25,
       photo: image4,
       description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
     },
     {
       id: 5,
       name: "Sping Loaded Cup Dispenser",
-      price: 175.85,
+      price: 75,
       photo: image5,
       description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
     },
     {
       id: 6,
       name: "Bread - Malt",
-      price: 82.61,
+      price: 82,
       photo: image6,
       description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
     },
     {
       id: 7,
       name: "Glass Clear 8 Oz",
-      price: 201.10,
+      price: 20,
       photo: image7,
       description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
     },
     {
       id: 8,
       name: "Sour Puss Raspberry",
-      price: 134.99,
+      price: 34,
       photo: image8,
       description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
     },
     {
       id: 9,
       name: "Pork - Chop, Frenched",
-      price: 199.16,
+      price: 99,
       photo: image9,
       description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
     },
     {
       id: 10,
       name: "Bagels Poppyseed",
-      price: "123.82",
+      price: 12,
       photo: image10,
       description : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
     },
